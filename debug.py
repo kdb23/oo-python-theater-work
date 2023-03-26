@@ -8,7 +8,7 @@ r1 = ("Programmer Kid")
 
 # a1 = ("Chandler", "NYC", True, r1)
 
-a1 = ("Chandler", "NYC", r1)
+a1 = ("Chandler", "NYC")
 
 
 
