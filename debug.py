@@ -4,12 +4,13 @@ from lib import *
 # Test your code below...
 
 
-r1 = ("Programmer Kid")
+r1 = Role("Programmer Kid")
+r2 = Role("Bride")
 
-# a1 = ("Chandler", "NYC", True, r1)
 
-a1 = ("Chandler", "NYC")
-
+a1 = Audition("Morgan", "NYC", True, r1)
+a2 = Audition("Mike", "CO", False, r1)
+a3 = Audition("Chandler", "NC", True, r2)
 
 
 # the below line allows us to stop & try stuff!
